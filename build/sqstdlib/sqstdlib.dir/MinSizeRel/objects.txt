@@ -1,8 +1,0 @@
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/MinSizeRel/sqstdaux.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/MinSizeRel/sqstdblob.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/MinSizeRel/sqstdio.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/MinSizeRel/sqstdmath.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/MinSizeRel/sqstdrex.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/MinSizeRel/sqstdstream.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/MinSizeRel/sqstdstring.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/MinSizeRel/sqstdsystem.obj

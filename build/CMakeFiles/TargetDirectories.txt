@@ -1,9 +1,0 @@
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/CMakeFiles/INSTALL.dir
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/CMakeFiles/squirrel.dir
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/CMakeFiles/squirrel_static.dir
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/CMakeFiles/INSTALL.dir
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/CMakeFiles/sqstdlib.dir
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/CMakeFiles/sqstdlib_static.dir
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/CMakeFiles/INSTALL.dir

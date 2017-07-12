@@ -1,8 +1,0 @@
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/Debug/sqstdaux.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/Debug/sqstdblob.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/Debug/sqstdio.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/Debug/sqstdmath.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/Debug/sqstdrex.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/Debug/sqstdstream.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/Debug/sqstdstring.obj
-C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/sqstdlib/sqstdlib.dir/Debug/sqstdsystem.obj
