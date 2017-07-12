@@ -1,0 +1,12 @@
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqapi.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqbaselib.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqclass.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqcompiler.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqdebug.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqfuncstate.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqlexer.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqmem.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqobject.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqstate.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqtable.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/RelWithDebInfo/sqvm.obj

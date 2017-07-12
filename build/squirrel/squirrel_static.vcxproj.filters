@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqbaselib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqcompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqdebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqfuncstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqlexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqmem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqtable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\sqvm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\squirrel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1224E322-1758-35AD-80E3-2F7C309476FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

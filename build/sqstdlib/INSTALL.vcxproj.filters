@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PerikiyoXD\cmake-projects-for-github\ezsquirrel\build\CMakeFiles\bffc7bcce68764b7e9dfc36297761774\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A61962CE-19B2-3553-B4B7-D294E3806EE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

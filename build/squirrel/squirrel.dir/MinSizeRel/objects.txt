@@ -1,0 +1,12 @@
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqapi.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqbaselib.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqclass.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqcompiler.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqdebug.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqfuncstate.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqlexer.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqmem.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqobject.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqstate.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqtable.obj
+C:/Users/PerikiyoXD/cmake-projects-for-github/ezsquirrel/build/squirrel/squirrel.dir/MinSizeRel/sqvm.obj
