@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.6)
 
 set(CMAKE_BUILD_TYPE "Release" CACHE STRING "")
 set(SQUIRREL_UNICODE "" CACHE STRING "Determine if Squirrel uses Unicode")
