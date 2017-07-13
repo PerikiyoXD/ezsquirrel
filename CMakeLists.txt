@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.6)
 set(CMAKE_BUILD_TYPE "Release" CACHE STRING "")
 set(SQUIRREL_UNICODE "" CACHE STRING "Determine if Squirrel uses Unicode")
 
-project(squirrel C CXX)
+project(ezsquirrel C CXX)
 
 if(CMAKE_COMPILER_IS_GNUCXX)
 	#set(SQ_FLAGS "-fno-exceptions -fno-strict-aliasing -Wall -Wextra -pedantic -Wcast-qual") #No mo warnings ;-;!
