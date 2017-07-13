@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 
 set(CMAKE_BUILD_TYPE "Release" CACHE STRING "")
-set(SQUIRREL_UNICODE ON CACHE BOOL ON)
+set(SQUIRREL_UNICODE "" CACHE STRING "Determine if Squirrel uses Unicode")
 
 project(squirrel C CXX)
 
@@ -25,8 +25,7 @@ if(CMAKE_COMPILER_IS_GNUCXX)
 elseif(MSVC)
   set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 endif()
-
-if(BOOL ${SQUIRREL_UNICODE})
+if($<${SQUIRREL_UNICODE}:ON>)
 	add_definitions("-DSQUNICODE")
 endif()
 
