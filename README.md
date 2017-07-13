@@ -1,6 +1,8 @@
 # ezsquirrel
 Stripped-down Squirrel (Squirrel-Lang) library specifically built for CMake.
 
+(Original project: https://github.com/albertodemichelis/squirrel)
+
 ## Why?
 Because Squirrel contains unneeded files in it's official repository, and it's pretty annoying searching and building the specific stuff you need and not finish building examples or other subprojects. 
 
