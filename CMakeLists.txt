@@ -1,58 +1,45 @@
-if(MSVC)
-  cmake_minimum_required(VERSION 3.4)
-else()
-  cmake_minimum_required(VERSION 2.8)
-endif()
+cmake_minimum_required(VERSION 3.9)
 
-set(CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}" CACHE PATH "")
 set(CMAKE_BUILD_TYPE "Release" CACHE STRING "")
-
-set(SQUIRREL_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/include")
+set(SQUIRREL_UNICODE ON CACHE BOOL ON)
 
 project(squirrel C CXX)
 
-include_directories(${SQUIRREL_INCLUDE_DIR})
-
 if(CMAKE_COMPILER_IS_GNUCXX)
-  set(SQ_FLAGS -fno-exceptions -fno-strict-aliasing -Wall -Wextra -pedantic -Wcast-qual)
-
+  set(SQ_FLAGS "-fno-exceptions -fno-strict-aliasing -Wall -Wextra -pedantic -Wcast-qual")
   if(CMAKE_BUILD_TYPE STREQUAL "Release")
-    set(SQ_FLAGS ${SQ_FLAGS} -O3)
+    set(SQ_FLAGS "${SQ_FLAGS} -O3")
   elseif(CMAKE_BUILD_TYPE STREQUAL "RelWithDebInfo")
-    set(SQ_FLAGS ${SQ_FLAGS} -O3 -g)
+    set(SQ_FLAGS "${SQ_FLAGS} -O3 -g")
   elseif(CMAKE_BUILD_TYPE STREQUAL "MinSizeRel")
-    set(SQ_FLAGS ${SQ_FLAGS} -Os)
+    set(SQ_FLAGS "${SQ_FLAGS} -Os")
   elseif(CMAKE_BUILD_TYPE STREQUAL "Debug")
-    set(SQ_FLAGS ${SQ_FLAGS} -pg -pie -gstabs -g3 -Og)
+    set(SQ_FLAGS "${SQ_FLAGS} -pg -pie -gstabs -g3 -Og")
   endif()
-
   if(CMAKE_VERSION VERSION_GREATER 3)
-    add_compile_options(${SQ_FLAGS})
+    add_compile_options("${SQ_FLAGS}")
   else()
-    add_definitions(${SQ_FLAGS})
+    add_definitions("${SQ_FLAGS}")
   endif()
-
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti -std=c++0x")
 elseif(MSVC)
   set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 endif()
 
+if(BOOL ${SQUIRREL_UNICODE})
+	add_definitions("-DSQUNICODE")
+endif()
+
 if(CMAKE_SIZEOF_VOID_P EQUAL 8)
-  add_definitions(-D_SQ64)
+  add_definitions("-D_SQ64")
 endif()
 
 if(NOT DEFINED INSTALL_BIN_DIR)
-  set(INSTALL_BIN_DIR bin)
+	set(INSTALL_BIN_DIR "bin")
 endif()
-
 if(NOT DEFINED INSTALL_LIB_DIR)
-  set(INSTALL_LIB_DIR lib)
+	set(INSTALL_LIB_DIR "lib")
 endif()
 
 add_subdirectory(squirrel)
 add_subdirectory(sqstdlib)
-
-if(NOT WIN32)
-  set_target_properties(squirrel sqstdlib PROPERTIES SOVERSION 0 VERSION 0.0.0)
-endif()
-
