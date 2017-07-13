@@ -2,7 +2,7 @@ file(GLOB_RECURSE SQUIRREL_STDLIB_SOURCES "src/*.cpp")
 
 add_library(sqstdlib STATIC ${SQUIRREL_STDLIB_SOURCES})
 
-include_directories(SYSTEM "${CMAKE_CURRENT_SOURCE_DIR}/include" "${CMAKE_SOURCE_DIR}/include")
+include_directories(SYSTEM "${CMAKE_CURRENT_SOURCE_DIR}/../include" "${CMAKE_SOURCE_DIR}/include")
 
 target_link_libraries(sqstdlib squirrel)
 

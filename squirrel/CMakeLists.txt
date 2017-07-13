@@ -2,7 +2,7 @@ file(GLOB_RECURSE SQUIRREL_SOURCES "src/*.cpp" "include/*.h")
 
 add_library(squirrel STATIC ${SQUIRREL_SOURCES})
 
-include_directories(SYSTEM "${CMAKE_CURRENT_SOURCE_DIR}/include" "${CMAKE_SOURCE_DIR}/include")
+include_directories(SYSTEM "${CMAKE_CURRENT_SOURCE_DIR}/../include" "${CMAKE_SOURCE_DIR}/include")
 
 
 target_include_directories(squirrel SYSTEM PUBLIC "${CMAKE_SOURCE_DIR}/include")
