@@ -22,6 +22,9 @@ elseif(MSVC)
 	set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 endif()
 
+if(MSVC)
+	add_definitions("-D_CRT_SECURE_NO_WARNINGS")
+endif()
 
 if($<${SQUIRREL_UNICODE}:ON>)
 	add_definitions("-DSQUNICODE")
